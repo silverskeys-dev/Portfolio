@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
+// GitHub Pages serves project sites under /<repo-name>/
+// Repo: https://github.com/silverskeys-dev/Portfolio
+const repoName = "Portfolio";
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  trailingSlash: true,
+  basePath: isGitHubPages ? `/${repoName}` : "",
+  assetPrefix: isGitHubPages ? `/${repoName}/` : "",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
