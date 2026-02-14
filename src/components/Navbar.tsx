@@ -7,6 +7,7 @@ import Image from "next/image";
 
 import { Container } from "@/components/Container";
 import { NAV_ITEMS, PROFILE } from "@/lib/data";
+import { publicPath } from "@/lib/publicPath";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -80,7 +81,7 @@ export function Navbar() {
           >
             <span className="relative inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] sm:h-12 sm:w-12">
               <Image
-                src={PROFILE.logoSrc}
+                src={publicPath(PROFILE.logoSrc)}
                 alt={PROFILE.logoAlt}
                 width={48}
                 height={48}

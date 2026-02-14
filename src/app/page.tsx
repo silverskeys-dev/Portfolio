@@ -15,6 +15,7 @@ import {
   SOCIALS,
   SKILL_GROUPS,
 } from "@/lib/data";
+import { publicPath } from "@/lib/publicPath";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ function HomeIntro() {
       <div className="relative overflow-hidden border-b border-white/10">
         <div className="pointer-events-none absolute inset-0">
           <Image
-            src={PROFILE.homeBackgroundSrc}
+            src={publicPath(PROFILE.homeBackgroundSrc)}
             alt={PROFILE.homeBackgroundAlt}
             fill
             priority

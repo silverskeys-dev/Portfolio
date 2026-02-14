@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 
 import type { GameProject } from "@/lib/data";
+import { publicPath } from "@/lib/publicPath";
 
 export function GameProjectModal({
   project,
@@ -19,7 +20,7 @@ export function GameProjectModal({
     const gallery = project.gallery?.length ? project.gallery : undefined;
     if (gallery) {
       return gallery.map((g) => ({
-        src: g.src,
+        src: publicPath(g.src),
         alt: g.alt ?? project.title,
         caption: g.caption,
       }));
@@ -27,7 +28,7 @@ export function GameProjectModal({
     if (project.imageSrc) {
       return [
         {
-          src: project.imageSrc,
+          src: publicPath(project.imageSrc),
           alt: project.imageAlt ?? project.title,
           caption: undefined,
         },

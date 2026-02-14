@@ -4,6 +4,7 @@ import type React from "react";
 
 import { Badge } from "@/components/Badge";
 import type { GameProject } from "@/lib/data";
+import { publicPath } from "@/lib/publicPath";
 
 export function GameCard({
   project,
@@ -44,7 +45,7 @@ export function GameCard({
           <div className="relative aspect-[16/10] w-full">
             {project.imageSrc ? (
               <Image
-                src={project.imageSrc}
+                src={publicPath(project.imageSrc)}
                 alt={project.imageAlt ?? project.title}
                 fill
                 sizes="(min-width: 1024px) 260px, 100vw"

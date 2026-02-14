@@ -33,6 +33,8 @@ import {
   useGLTF,
 } from "@react-three/drei";
 
+import { publicPath } from "@/lib/publicPath";
+
 class ModelErrorBoundary extends Component<
   { fallback?: ReactNode; children: ReactNode },
   { hasError: boolean }
@@ -75,7 +77,8 @@ function pickClip(animations: THREE.AnimationClip[], requestedName?: string) {
 function Model({ url, animation }: { url: string; animation?: string }) {
   const group = useRef<THREE.Group>(null);
   const spinGroup = useRef<THREE.Group>(null);
-  const gltf = useGLTF(url);
+  const resolvedUrl = useMemo(() => publicPath(url), [url]);
+  const gltf = useGLTF(resolvedUrl);
   const { camera, gl } = useThree();
 
   const mixer = useMemo(() => new AnimationMixer(gltf.scene), [gltf.scene]);
@@ -446,7 +449,8 @@ function ModelWithFixes({
   animation?: string;
   recomputeNormals?: boolean;
 }) {
-  const gltf = useGLTF(url);
+  const resolvedUrl = useMemo(() => publicPath(url), [url]);
+  const gltf = useGLTF(resolvedUrl);
 
   useEffect(() => {
     if (!recomputeNormals) return;

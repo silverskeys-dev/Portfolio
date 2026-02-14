@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import { PROFILE } from "@/lib/data";
+import { publicPath } from "@/lib/publicPath";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -15,11 +16,11 @@ export const metadata: Metadata = {
     "Modern, minimal portfolio for a 3D Artist and Game Developer — assets, games, and contact.",
   icons: {
     icon: [
-      { url: PROFILE.logoSrc, type: "image/png" },
-      { url: PROFILE.logoSrc, sizes: "32x32", type: "image/png" },
+      { url: publicPath(PROFILE.logoSrc), type: "image/png" },
+      { url: publicPath(PROFILE.logoSrc), sizes: "32x32", type: "image/png" },
     ],
-    shortcut: [{ url: PROFILE.logoSrc, type: "image/png" }],
-    apple: [{ url: PROFILE.logoSrc, sizes: "180x180", type: "image/png" }],
+    shortcut: [{ url: publicPath(PROFILE.logoSrc), type: "image/png" }],
+    apple: [{ url: publicPath(PROFILE.logoSrc), sizes: "180x180", type: "image/png" }],
   },
 };
 
