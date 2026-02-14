@@ -1,0 +1,27 @@
+<svg width="2400" height="1600" viewBox="0 0 2400 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <radialGradient id="center" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 760) rotate(90) scale(740 1040)">
+      <stop stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rim" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1520 540) rotate(120) scale(680 820)">
+      <stop stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="2400" height="1600" fill="url(#bg)"/>
+  <ellipse cx="1240" cy="780" rx="1040" ry="740" fill="url(#center)"/>
+  <ellipse cx="1520" cy="560" rx="820" ry="640" fill="url(#rim)"/>
+
+  <!-- Abstract creature silhouette placeholder (swap with real render) -->
+  <g opacity="0.95">
+    <path d="M1600 1120C1750 990 1870 900 2020 890C2120 885 2210 920 2280 990C2230 1120 2100 1255 1900 1310C1730 1360 1520 1340 1380 1240C1440 1190 1520 1170 1600 1120Z" fill="#121215"/>
+    <path d="M1440 980C1490 850 1590 770 1710 760C1840 750 1950 820 2020 920C1910 1010 1750 1090 1590 1100C1510 1105 1455 1045 1440 980Z" fill="#18181c"/>
+    <path d="M1680 720C1695 640 1750 590 1825 585C1915 578 2000 640 2050 720C2000 780 1910 820 1830 822C1750 824 1695 790 1680 720Z" fill="#1f1f24"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="2400" height="1200" viewBox="0 0 2400 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0d0f"/>
+      <stop offset="1" stop-color="#070709"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1560 480) rotate(90) scale(620 820)">
+      <stop stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="2400" height="1200" fill="url(#bg)"/>
+
+  <!-- Soft studio spotlight -->
+  <ellipse cx="1560" cy="520" rx="820" ry="520" fill="url(#spot)"/>
+
+  <!-- Abstract 'render' silhouette placeholder -->
+  <path d="M1320 860C1410 720 1560 670 1720 700C1870 730 1970 820 2040 950C1940 1040 1760 1090 1580 1060C1420 1030 1320 960 1320 860Z" fill="#111114"/>
+  <path d="M1460 840C1520 730 1630 700 1730 720C1830 740 1900 810 1950 900C1870 960 1730 990 1600 970C1500 950 1450 900 1460 840Z" fill="#17171b"/>
+  <path d="M1680 690C1695 620 1740 580 1800 575C1855 570 1905 600 1940 650C1905 700 1840 735 1775 735C1720 735 1685 715 1680 690Z" fill="#1c1c21"/>
+
+  <!-- Top subtle rim -->
+  <rect x="0" y="0" width="2400" height="220" fill="url(#rim)"/>
+
+</svg>
