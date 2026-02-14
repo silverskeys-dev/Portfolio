@@ -253,9 +253,6 @@ function Footer() {
         <p className="text-sm text-zinc-400">
           © {new Date().getFullYear()} {PROFILE.name}. All rights reserved.
         </p>
-        <p className="text-sm text-zinc-500">
-          Built with Next.js + Tailwind.
-        </p>
       </Container>
     </footer>
   );
