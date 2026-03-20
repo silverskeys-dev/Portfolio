@@ -159,7 +159,7 @@ export const SERVICES: Service[] = [
   {
     title: "Code development",
     description:
-      "Writing efficient and scalable code in languages like C#, C++, and JavaScript to bring innovative ideas to life.",
+      "Writing efficient and scalable code in languages like C# and Lua to bring innovative ideas to life.",
   },
   {
     title: "3D modeling & animation",
