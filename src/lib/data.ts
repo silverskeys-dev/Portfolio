@@ -118,7 +118,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
     title: "Coding platforms",
     trait: "Efficiency",
     items:
-      "Unity, Unreal engine, Visual studio, Visual studio code, Docker, Debugging tools",
+      "Unity, Roblox Studio",
   },
   {
     title: "Roblox",
