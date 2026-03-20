@@ -181,11 +181,6 @@ export const SERVICES: Service[] = [
     description:
       "Building prototypes to test game concepts, ensuring feasibility and refining ideas before full-scale development.",
   },
-  {
-    title: "Maintenance & updates",
-    description:
-      "Providing ongoing support and updates to ensure your applications, games, or websites stay optimized and up-to-date.",
-  },
 ];
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
