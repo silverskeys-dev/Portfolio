@@ -128,7 +128,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
   {
     title: "Programming Languages",
     trait: "Versatility",
-    items: "Javascript, C#, C++, Solidity, Python",
+    items: "C# (Unity), Lua",
   },
   {
     title: "Design",
