@@ -126,7 +126,7 @@ export function ModelGallery({ items, className }: ModelGalleryProps) {
                 disabled={activeIndex === 0}
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-transparent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/5 disabled:cursor-not-allowed disabled:opacity-50"
               >
-                Voltar
+                Back
               </button>
               <button
                 type="button"
@@ -134,7 +134,7 @@ export function ModelGallery({ items, className }: ModelGalleryProps) {
                 disabled={activeIndex === items.length - 1}
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-transparent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/5 disabled:cursor-not-allowed disabled:opacity-50"
               >
-                Avançar
+                Next
               </button>
             </div>
           </div>
