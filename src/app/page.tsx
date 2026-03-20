@@ -161,7 +161,6 @@ function HomeIntro() {
             <SectionHeading
               eyebrow="Services"
               title="Services"
-              description="End-to-end support from prototyping to production."
             />
           </div>
 
