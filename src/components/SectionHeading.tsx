@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export function SectionHeQding({
+export function SectionHeading({
   eyebrow,
   title,
   description,
@@ -27,5 +27,3 @@ export function SectionHeQding({
     </div>
   );
 }
-
-export { SectionHeQding as SectionHeading };

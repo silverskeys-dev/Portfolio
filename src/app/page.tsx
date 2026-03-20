@@ -6,10 +6,12 @@ import { Navbar } from "@/components/Navbar";
 import { SectionHeading } from "@/components/SectionHeading";
 import { GamesSection } from "@/components/GamesSection";
 import { GltfModelCanvas } from "@/components/three/GltfModelCanvas";
+import { ModelGallery } from "@/components/ModelGallery";
 import {
   ABOUT_TEXT,
   GAME_PROJECTS,
   HOME_INTRO,
+  MODEL_GALLERY_ITEMS,
   PROFILE,
   SERVICES,
   SOCIALS,
@@ -136,6 +138,20 @@ function HomeIntro() {
               </div>
             ))}
           </div>
+        </Container>
+      </section>
+
+      <section className="border-t border-white/10 py-16 sm:py-20">
+        <Container>
+          <div className="animate-enter anim-delay-0 max-w-3xl">
+            <SectionHeading
+              eyebrow="3D"
+              title="3D Models"
+              description="Some models and assets I've created."
+            />
+          </div>
+
+          <ModelGallery items={MODEL_GALLERY_ITEMS} />
         </Container>
       </section>
 

@@ -103,7 +103,7 @@ export const HOME_INTRO =
   "I am an innovative programmer, artist, and IT professional, blending creativity with technology to craft impactful solutions and bring ambitious ideas to life.";
 
 export const ABOUT_TEXT =
-  "I am a versatile developer with strong expertise in game development, web design, and digital experiences. Passionate about combining creativity and technology, I specialize in building immersive games, responsive websites, and complete end-to-end solutions tailored to unique challenges.\n\nMy skill set includes C# programming, 3D modeling, UI/UX design, animation, and cross-platform development, allowing me to transform ideas into polished, high-quality products. I am driven to create engaging user experiences and innovative digital solutions that leave a meaningful and lasting impact.";
+  "My skill set includes C# programming, 3D modeling, UI/UX design, animation, cross-platform development, and Roblox Studio experience, allowing me to transform ideas into polished, high-quality products. I am driven to create engaging user experiences and innovative digital solutions that leave a meaningful and lasting impact.";
 
 export const WORK_TIMELINE: TimelineItem[] = [
   { role: "Unity Game Developer", project: "Adventure quest", year: "2025" },
@@ -121,6 +121,11 @@ export const SKILL_GROUPS: SkillGroup[] = [
       "Unity, Unreal engine, Visual studio, Visual studio code, Docker, Debugging tools",
   },
   {
+    title: "Roblox",
+    trait: "Experience",
+    items: "Roblox Studio, Lua scripting, UI",
+  },
+  {
     title: "Programming Languages",
     trait: "Versatility",
     items: "Javascript, C#, C++, Solidity, Python",
@@ -136,11 +141,6 @@ export const SKILL_GROUPS: SkillGroup[] = [
     trait: "Precision",
     items:
       "Blender, 2D frame Animation, Mixamo, Animate CC, Photoshop",
-  },
-  {
-    title: "Project Management",
-    trait: "Leadership",
-    items: "Time management, Problem solving, Adaptability, Admin Management",
   },
   {
     title: "3D Generalist",
@@ -242,6 +242,169 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     description:
       "Skin explorations with color accents, decals, and emission details for readability.",
     tags: ["PBR", "Unreal", "Unity", "Game-Ready"],
+  },
+];
+
+export const MODEL_GALLERY_ITEMS: PortfolioItem[] = [
+  {
+    imageSrc: "/models/Portfolio/Aliens.png",
+    imageAlt: "Aliens 3D model render",
+    title: "Aliens",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Captura de tela 2026-03-18 172359.png",
+    imageAlt: "Captura de tela 2026 03 18 172359 3D model render",
+    title: "Captura de tela 2026 03 18 172359",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Capu1.png",
+    imageAlt: "Capu1 3D model render",
+    title: "Capu1",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Cow.png",
+    imageAlt: "Cow 3D model render",
+    title: "Cow",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Crock.png",
+    imageAlt: "Crock 3D model render",
+    title: "Crock",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Fluri1.png",
+    imageAlt: "Fluri1 3D model render",
+    title: "Fluri1",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Girafa.png",
+    imageAlt: "Girafa 3D model render",
+    title: "Girafa",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Goblin1.png",
+    imageAlt: "Goblin1 3D model render",
+    title: "Goblin1",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Goblin2.png",
+    imageAlt: "Goblin2 3D model render",
+    title: "Goblin2",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Goblinboss.png",
+    imageAlt: "Goblinboss 3D model render",
+    title: "Goblinboss",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Lots.png",
+    imageAlt: "Lots 3D model render",
+    title: "Lots",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Orange.png",
+    imageAlt: "Orange 3D model render",
+    title: "Orange",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Patapno.png",
+    imageAlt: "Patapno 3D model render",
+    title: "Patapno",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Pick.png",
+    imageAlt: "Pick 3D model render",
+    title: "Pick",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Raptor4.png",
+    imageAlt: "Raptor4 3D model render",
+    title: "Raptor4",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Shark.png",
+    imageAlt: "Shark 3D model render",
+    title: "Shark",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Shark1.png",
+    imageAlt: "Shark1 3D model render",
+    title: "Shark1",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Thumbdragon.png",
+    imageAlt: "Thumbdragon 3D model render",
+    title: "Thumbdragon",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Tung.png",
+    imageAlt: "Tung 3D model render",
+    title: "Tung",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
+  },
+  {
+    imageSrc: "/models/Portfolio/Weapons.png",
+    imageAlt: "Weapons 3D model render",
+    title: "Weapons",
+    kind: "3D Model",
+    description: "3D model render.",
+    tags: ["3D", "Render"],
   },
 ];
 
