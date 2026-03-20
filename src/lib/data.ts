@@ -462,6 +462,5 @@ export const SKILLS = [
 ] as const;
 
 export const SOCIALS = [
-  { label: "ArtStation", href: "https://www.artstation.com/silverskeys" },
   { label: "Discord", href: "https://discordapp.com/users/452217320912453645" },
 ] as const;
